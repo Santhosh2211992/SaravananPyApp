@@ -1,5 +1,10 @@
 import re
 import os
+import sys
+
+cwd = os.getcwd()
+repoPath = sys.argv[1]
+os.chdir(repoPath)
 
 inputfile1 = open('i.txt')
 inputfile2 = open('am.txt')
@@ -19,3 +24,5 @@ inputfile1.close
 inputfile2.close
 inputfile3.close
 outputfile.close
+
+os.chdir(cwd)
