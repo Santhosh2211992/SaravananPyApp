@@ -20,14 +20,14 @@ outputfile = open('bin' + '\\' + OUTPUT, 'w+')
 
 for line in inputfile1:
     print("[INFO] : Processing data from file i.txt")
-	outputfile.write(line)
+    outputfile.write(line)
 for line in inputfile2:
     print("[INFO] : Processing data from file am.txt")
-	outputfile.write(line)
+    outputfile.write(line)
 for line in inputfile3:
     print("[INFO] : Processing data from file myName.txt")
-	print("[INFO] : Preparing the file " + OUTPUT)
-	outputfile.write(line)
+    print("[INFO] : Preparing the file " + OUTPUT)
+    outputfile.write(line)
 
 	
 inputfile1.close
