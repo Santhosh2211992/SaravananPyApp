@@ -5,7 +5,7 @@ import datetime
 
 OUTPUT = "output_" + datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + ".txt"
 
-print("[INFO] : Builder.py started executing")
+print("[INFO] : Build process started")
 
 cwd = os.getcwd()
 repoPath = sys.argv[1]
