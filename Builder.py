@@ -9,7 +9,7 @@ print("[INFO] : Build process started")
 
 cwd = os.getcwd()
 repoPath = sys.argv[1]
-#os.chdir(repoPath)
+os.chdir(repoPath)
 
 inputfile1 = open('i.txt')
 inputfile2 = open('am.txt')
